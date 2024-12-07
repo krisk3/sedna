@@ -1,0 +1,2 @@
+# sedna
+Static Website
