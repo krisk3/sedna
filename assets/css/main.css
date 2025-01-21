@@ -1,4 +1,4 @@
-/*-----------------------------------------------------------------------------------
+﻿/*-----------------------------------------------------------------------------------
 
     Project Name: Seargin - Business Consulting HTML Template
     Author: XpressBuddy -->> (https://themeforest.net/user/xpressbuddy)
@@ -54,8 +54,8 @@
   --font-lato: "Lato", sans-serif;
   --font-noto: "Noto Serif Display", serif;
   --font-raleway: "Raleway", sans-serif;
-  --color-primary: #2029BD;
-  --color-secondary: #14CAF4;
+  --color-primary: #3b5997;
+  --color-secondary: #3b5997;
   --color-ins: #B1F200;
   --color-ins-2: #8FC908;
   --color-law: #3b5997;
@@ -5285,7 +5285,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
 
 .hero-law {
   min-height: 745px;
-  padding-top: 140px;
+  padding-top: 20px;
 }
 @media (max-width: 991px) {
   .hero-law {
@@ -5881,7 +5881,7 @@ body[data-aos-easing=ease] [data-aos=zoom-in] {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background-color: #052328;
+  background-color: #3b5997;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6007,7 +6007,7 @@ body[data-aos-easing=ease] [data-aos=zoom-in] {
 .xb-feature2 .xb-item--icon {
   width: 71px;
   height: 71px;
-  background-color: #14CAF4;
+  background-color: #3b5997;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
