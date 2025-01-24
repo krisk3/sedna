@@ -5289,30 +5289,30 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
 }
 @media (max-width: 991px) {
   .hero-law {
-    padding-top: 100px;
+    padding-top: 1px;
   }
 }
 
 .law-hero-content .xb-item--title {
-  font-size: 70px;
-  line-height: 85px;
+  font-size: 55px; 
+  line-height: 60px;
   margin-bottom: 44px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   .law-hero-content .xb-item--title {
-    font-size: 60px;
-    line-height: 77px;
+    font-size: 55px; 
+    line-height: 60px;
   }
 }
 @media (max-width: 1199px) {
   .law-hero-content .xb-item--title {
-    font-size: 50px;
-    line-height: 65px;
+    font-size: 55px;
+    line-height: 60px;
   }
 }
 @media (max-width: 767px) {
   .law-hero-content .xb-item--title {
-    font-size: 35px;
+    font-size: 45px; 
     line-height: 50px;
   }
 }
