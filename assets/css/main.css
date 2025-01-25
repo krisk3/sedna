@@ -5794,6 +5794,10 @@ body[data-aos-easing=ease] [data-aos=zoom-in] {
     display: none;
   }
 }
+html{
+  overflow-x: hidden;
+  width: 100vw;
+}
 .lw-hr-shape .shape--1 {
   top: 60%;
   left: 33px;
