@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx" style="width: 100vw;">
+<html lang="zxx" style="width: 100vw">
   <head>
     <!--========= Required meta tags =========-->
     <meta charset="utf-8" />
@@ -32,9 +32,18 @@
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
 
-  <body class="demo_law" style="overflow-x: hidden; padding:0px; margin:0px; width: 100vw; position: relative;">
+  <body
+    class="demo_law"
+    style="
+      overflow-x: hidden;
+      padding: 0px;
+      margin: 0px;
+      width: 100vw;
+      position: relative;
+    "
+  >
     <!-- Backtotop - start -->
-    <div class="xb-backtotop style-law" style="right: 90px;">
+    <div class="xb-backtotop style-law" style="right: 90px">
       <a href="#" class="scroll">
         <i class="far fa-arrow-up"></i>
       </a>
@@ -299,7 +308,7 @@
                   <h3 class="xb-item--title">Email</h3>
                   <!-- change -->
                   <div class="xb-item--content">
-                    sednawatersolutions@gmail.com<br />
+                    <a href="mailto:sednawatersolutions@gmail.com">sednawatersolutions@gmail.com</a><br />
                     <hr style="opacity: 0" />
                   </div>
                 </div>
@@ -337,7 +346,11 @@
               </h2>
             </div>
             <div class="xb-contact__area">
-              <form class="contact-from" action="#">
+              <form
+                class="contact-from"
+                action="https://formsubmit.co/54643350cc14fb344a5b27bd3f2a4def  "
+                method="POST"
+              >
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="xb-item--field">
@@ -349,7 +362,9 @@
                         <input
                           id="name"
                           type="text"
-                          placeholder="Goladria Gomez"
+                          placeholder="Name"
+                          name="name"
+                          required
                         />
                       </div>
                     </div>
@@ -366,7 +381,9 @@
                         <input
                           id="email"
                           type="email"
-                          placeholder="seargin@agency.com"
+                          name="email"
+                          placeholder="Email"
+                          required
                         />
                       </div>
                     </div>
@@ -380,8 +397,10 @@
                         /></span>
                         <input
                           id="phone"
-                          type="email"
-                          placeholder="+1 088 01 4800 24"
+                          type="number"
+                          placeholder="Phone"
+                          name="Phone Number"
+                          required
                         />
                       </div>
                     </div>
@@ -395,14 +414,20 @@
                             src="assets/img/icon/ins-home-hashtag.svg"
                             alt=""
                         /></span>
-                        <select name="select" class="nice-select">
-                          <!-- change  -->
+                        <!-- <select name="select" class="nice-select">
                           <option value="1">Select Subject</option>
                           <option value="2">Market Analysis</option>
                           <option value="3">Investment Insights</option>
                           <option value="4">Estate Planning</option>
                           <option value="4">Risk Assessment</option>
-                        </select>
+                        </select> -->
+                        <input
+                          id="subject"
+                          type="text"
+                          placeholder="Subject"
+                          name="Subject"
+                          required
+                        />
                       </div>
                     </div>
                   </div>
@@ -419,6 +444,7 @@
                           cols="30"
                           rows="10"
                           placeholder="Write Your Message..."
+                          required
                         ></textarea>
                       </div>
                     </div>
@@ -437,8 +463,15 @@
         <div class="google-map">
           <!-- change  -->
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14602.254272231177!2d90.3654215!3d23.7985508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1592852423971!5m2!1sen!2sbd"
-          ></iframe>
+            width="600"
+            height="450"
+            style="border: 0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14602.254272231177!2d76.2978407!3d9.7056843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1592852423971!5m2!1sen!2sbd"
+          >
+          </iframe>
         </div>
         <!-- google map end -->
       </main>
@@ -470,9 +503,9 @@
                   /></a>
                   <div class="bc-footer-social-inner mt-115">
                     <span class="bc-footer-social-title">Social Profile</span>
-                    <ul class="bc-footer-social ul_li" style="width: 100vw;">
+                    <ul class="bc-footer-social ul_li" style="width: 100vw">
                       <li>
-                        <a href="#!"
+                        <a href="#!" target="_blank"
                           ><svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="12"
@@ -487,13 +520,19 @@
                         ></a>
                       </li>
                       <li>
-                        <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#!" target="_blank"
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
                       </li>
                       <li>
-                        <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#!" target="_blank"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></a>
                       </li>
                       <li>
-                        <a href="#!"><i class="fab fa-instagram"></i></a>
+                        <a href="#!" target="_blank"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
                       </li>
                     </ul>
                   </div>
@@ -514,16 +553,19 @@
 
               <div class="col mt-40">
                 <div class="footer-widget">
-                    <div class="footer-widget" style="position: relative; left: 10px;">
-                        <h3 class="widget-title">Quick Link</h3>
-                        <ul class="widget-links list-unstyled">
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="about.html">About</a></li>
-                          <li><a href="clients.html">Clients</a></li>
-                          <li><a href="gallery.html">Gallery</a></li>
-                          <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                      </div>
+                  <div
+                    class="footer-widget"
+                    style="position: relative; left: 10px"
+                  >
+                    <h3 class="widget-title">Quick Link</h3>
+                    <ul class="widget-links list-unstyled">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="clients.html">Clients</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div class="col mt-40">
@@ -544,11 +586,13 @@
                   <div class="lw-footer-info">
                     <p class="mb-30">
                       Feel free to mail us <br />
-                      sednawatersolutions@gmail.com
+                      <a href="mailto:sednawatersolutions@gmail.com"
+                        >sednawatersolutions@gmail.com</a
+                      >
                     </p>
                     <p>
-                        Monday - Saturday <br />
-                        09:00AM - 05:00PM
+                      Monday - Saturday <br />
+                      09:00AM - 05:00PM
                     </p>
                   </div>
                 </div>
@@ -556,7 +600,7 @@
             </div>
           </div>
           <div class="bc-footer-copyright ul_li_between mt-12">
-            <p class="mt-15">Copyright © 2023 All Rights Reserved</p>
+            <p class="mt-15">Copyright © 2025 All Rights Reserved</p>
             <p class="mt-15">
               <a target="_blank" href="https://krisko.in">Designed by Krisko</a>
             </p>

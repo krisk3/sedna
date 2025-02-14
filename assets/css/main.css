@@ -6851,7 +6851,7 @@ html{
   -ms-transform: translateY(-22px);
   transform: translateY(-22px);
 }
-.lw-service .xb-item--inner:hover .xb-item--title a, .lw-service .xb-item--inner.active .xb-item--title a {
+.lw-service .xb-item--inner:hover .xb-item--title, .lw-service .xb-item--inner.active .xb-item--title {
   color: var(--color-white);
 }
 .lw-service .xb-item--inner:hover .xb-item--link, .lw-service .xb-item--inner.active .xb-item--link {
