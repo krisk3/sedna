@@ -290,7 +290,7 @@
 	var lwProjectSlider = new Swiper(".lw-project-slider", {
 		loop: true,
 		spaceBetween: 20,
-		speed: 500,
+		speed: 700,
 		slidesPerView: 1,
 		effect: 'fade',
 		centeredSlides: true,
@@ -316,9 +316,9 @@
 			nextEl: '.xb-swiper-arrow-next',
 			prevEl: '.xb-swiper-arrow-prev',
 		},
-		thumbs: {
-			swiper: lwProjectSlider,
-		},
+		// thumbs: {
+		// 	swiper: lwProjectSlider,
+		// },
 	});
 
 
